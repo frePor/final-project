@@ -12,6 +12,12 @@ header{
     font-weight: bold;
 }
 
+header img{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
 header a{
     text-decoration: none;
 }
@@ -75,11 +81,8 @@ nav a {
 }
 
 main{
-    padding-left: 1em;
-    padding-right: 1em;
     display: block;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
 }
 
 footer{
@@ -89,6 +92,21 @@ footer{
 
 footer ul{
     list-style: none;
+}
+
+#homehero {
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#homeHeroText{
+    position: absolute;
+    color: #6d6868;
+    text-align: center;
+    font-size: large;
 }
 
 @media(min-width: 600px){
