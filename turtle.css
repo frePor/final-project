@@ -86,9 +86,10 @@ main{
 }
 
 footer{
-    background-color: #FFFFFF;
+    background-color: #F4F4F4;
     padding: 1em;
 }
+
 
 footer ul{
     list-style: none;
@@ -107,6 +108,28 @@ footer ul{
     color: #6d6868;
     text-align: center;
     font-size: large;
+}
+
+#intro{
+    text-align: center;
+    color: #284e13;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#flow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+.services{
+    margin: 1em;
+    background-color: #F4F4F4;
+    color: #284e13;
 }
 
 @media(min-width: 600px){
