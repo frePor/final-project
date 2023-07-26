@@ -60,6 +60,67 @@
                 <a href="/commercial.html"><button><h3>Commercial Services</h3></button></a>      
              </section>
             </div>
+
+            <section id="estimateSection">
+                <h2>Request an Estimate</h2>
+                    <p>Required fields are marked with an asterisk*</p>
+            </section>
+            
+            <form method="post" action="https://formspree.io/f/xdorokjd">
+                <label for="myName">*Name:</label> <br>
+                    <input type="text" id="myFName" name="Name" required> <br>
+                <label for="myEmail">E-mail:</label> <br>
+                    <input type="email" id="myEmail" name="Email"> <br>
+                <label for="myPhone">*Phone:</label> <br>
+                    <input onkeydown="phoneNumberFormatter()" type="text" id="myPhone" name="Phone" required> <br>
+                <label for="myServiceAddress">*Service Address:</label><br>
+                    <input type="text" id="myServiceAddress" name="Address" required> <br>
+
+                <label>Type of Service Needed(please select all that apply)</label>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="concrete" name="exterior">
+                                <label for="exterior">Exterior Side Cleaning</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="driveway" name="driveway">
+                                <label for="driveway">Driveway</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sidewalk" name="sidewalk">
+                                <label for="sidewalk">Sidewalk(s)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="gutter" name="gutter">
+                                <label for="gutter">Gutter Cleaning</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="store" name="store">
+                                <label for="store">Storefront Cleaning</label>
+                        </li>
+
+                    </ul>
+                
+                <label>How would you like to be contacted?</label> 
+                    <ul>
+                        <li>
+                            <input type="checkbox">
+                                <label>Phone</label>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                                <label>Email</label>
+                        </li>
+                    </ul>
+                    
+                <label for="myComments">Interested in another service?</label><br>
+                    <textarea id="myComments" name="Comments" rows="2" cols="20"></textarea><br>
+                <label for="mySubmit"></label><br>
+                <label>Promo Code</label><br>
+                    <input type="text"> <br>
+
+                <input type="submit" id="mySubmit" value="Submit">
+            </form>
         </main>
 
     <!--Footer-->    

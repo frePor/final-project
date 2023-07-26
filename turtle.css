@@ -46,13 +46,16 @@ nav{
 }
 
 nav ul {
-    list-style: none;
     padding-left: 1em;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding-left: 0;
     line-height: 55px;
+}
+
+ul{
+    list-style: none;
 }
 
 nav li{
@@ -134,6 +137,29 @@ footer ul{
     margin: 1em;
     background-color: #F4F4F4;
     color: #284e13;
+}
+
+form{
+    display: grid;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #284e13;
+}
+
+input{
+    margin-bottom: 0.5em;
+}
+
+text{
+    margin-bottom: 0.5em;
+}
+
+#estimateSection{
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 @media(min-width: 600px){
