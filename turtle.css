@@ -159,8 +159,10 @@ button{
     transition: all 0.2s ease;
 }
 
-.buttonLink {
-    display: inline-block;
+.buttonLink{
+    display: grid;
+    justify-content: center;
+    align-items: center;
     padding: 10px 20px;
     background-color: #284e13;
     color: #FFFFFF;
@@ -169,7 +171,24 @@ button{
     border-radius: 10px;
   }
 
+.buttonLinkServices{
+    display: grid;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #284e13;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}
+
 .buttonLink h3:hover{
+    color: #A52A2A;
+}
+
+.buttonLinkServices:hover{
     color: #A52A2A;
 }
 
