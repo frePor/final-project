@@ -79,7 +79,7 @@ nav a:hover {
     color: #A52A2A; /*A52A2A*/
 }
 
-nav a {
+nav a{
     text-decoration: none;
 }
 
@@ -148,6 +148,25 @@ form{
     color: #284e13;
 }
 
+form button{
+    padding: 2em;
+    background-color: #284e13;
+    color: #FFFFFF;
+}
+
+button{
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+button:active{
+    transform: scale(0.96);
+}
+
+button:hover{
+    color: #A52A2A;
+}
+
 input{
     margin-bottom: 0.5em;
 }
@@ -162,8 +181,6 @@ text{
     align-items: center;
 }
 
-
-
 #gallery{
     display: flex;
     justify-content: center;
@@ -174,7 +191,7 @@ text{
 #gallery img{
     width: 400px;
     height: 300px;
-    border: 1px solid #284e13;
+    border: px solid #284e13;
     box-shadow: 3px 3px #4a4747;
     cursor: pointer;
     margin: 10px;
@@ -185,7 +202,38 @@ text{
     transform: scale(1.05);
     filter:brightness(1)
 }
+
+.headingSection{
+    display: grid;
+    justify-content: left;
+    align-items: left;
+    padding-left: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #284e13;
+}
+
+.paragraphSection{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #284e13;
+}
+
+.paragraphSection li{
+    list-style: initial;
+}
+
+.paragraphSection button{
+    width: 100px;
+}
  
+.paragraphSection a{
+    text-decoration: none;
+}
+
 @media(min-width: 600px){
     h1{
         font-size: 2em;
